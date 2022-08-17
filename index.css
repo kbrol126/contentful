@@ -1,0 +1,86 @@
+*{box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+    font-style: normal;}
+
+body{display: grid;
+justify-items: center;
+}
+.portfolio{
+    margin: 46px auto 100px auto;
+    max-width: 500px;
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    color: #000000;
+
+
+
+
+}
+.title{
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 38px;
+   
+    
+
+}
+.subtitulo{
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 24px;
+   
+}
+.contenedor{
+    display: flex;
+    gap: 44px;
+}
+@media (max-width: 959px){
+    .contenedor{display: grid;}
+}
+.card{
+    max-width: 374px;
+    margin: 0 auto;
+    border: solid black;
+    display:grid;
+    justify-items: center;
+}
+.img-card{
+
+    width: 368.1px;
+    height: 255px;
+    background-color: rebeccapurple;
+    margin: 0;
+}
+.descripcion{
+    
+    display: grid;
+    gap: 10px;
+    max-width: 332px;
+    max-height: 370px;
+    margin-top: 20px;
+
+}
+.title-card{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+   
+}
+.p-card{
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+.link{
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration-line: underline;
+    text-align: right;
+    color: #51AFF3;
+}
+
+
