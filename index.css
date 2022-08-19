@@ -3,7 +3,9 @@
     font-style: normal;}
 
 body{display: grid;
-justify-items: center;
+justify-content: center;
+margin: 0 40px;
+;
 }
 .portfolio{
     margin: 46px auto 100px auto;
@@ -40,15 +42,14 @@ justify-items: center;
 }
 .card{
     max-width: 374px;
-    margin: 0 auto;
     border: solid black;
     display:grid;
     justify-items: center;
 }
 .img-card{
 
-    width: 368.1px;
-    height: 255px;
+    max-width: 368.1px;
+    max-height: 255px;
     background-color: rebeccapurple;
     margin: 0;
 }
@@ -56,8 +57,8 @@ justify-items: center;
     
     display: grid;
     gap: 10px;
-    max-width: 332px;
-    max-height: 370px;
+    max-width: 1fr;
+    
     margin-top: 20px;
 
 }
