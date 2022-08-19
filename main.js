@@ -1,4 +1,5 @@
 function mostrarResultados(resultados) {
+  let contador = 0;
   const contenedor = document.querySelector(".contenedor");
   const template = document.querySelector("#cards");
   const arrayConUrls = resultados.includes.Asset.map((x) => x.fields.file.url);
@@ -11,7 +12,8 @@ function mostrarResultados(resultados) {
     const urlEl = template.content.querySelector(".link");
     urlEl.href = r.fields.url;
     const imgEl = template.content.querySelector(".img-card");
-    imgEl.src = arrayConUrls[0];
+    imgEl.src = arrayConUrls[contador];
+    contador++;
     const clonar = document.importNode(template.content, true);
     contenedor.appendChild(clonar);
   }
