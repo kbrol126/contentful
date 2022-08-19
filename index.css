@@ -73,6 +73,7 @@ justify-items: center;
     text-align: center;
     font-weight: 400;
     font-size: 18px;
+    overflow: auto;
     
 }
 .link{
